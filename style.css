@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f2f6ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+body {
+  background-image: url("d:\IMG_20230311_063509.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-image: url("d:\IMG_20230311_063509.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 10px;
+}
+
+.about,
+.projects,
+.contact {
+  margin: 40px 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #004aad;
+}
+
+.project-card {
+  background: black;
+  padding: 15px;
+  border-left: 4px solid #004aad;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e1eaff;
+  margin-top: 40px;
+}
